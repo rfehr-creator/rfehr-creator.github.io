@@ -1,5 +1,5 @@
 ---
-title: Roland Fehr Resume
+title: Roland Fehr
 ---
 
 ## WORK EXPERIENCE
