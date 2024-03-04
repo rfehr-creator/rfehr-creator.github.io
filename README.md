@@ -1,4 +1,4 @@
-# Host Resume
+# How to host a Resume
 The purpose of this readme is to create a simple pipeline for hosting a website. Anything could be hosted but we will host a resume. This project will use the modern approach as described by Andrew Etter in the book Modern Technical Writing. The primary idea is to make it easy for multiple people to contribute. Then whenever a change is committed, the website is automatically updated. To achieve this we use a lightweight markup language, format the document using a static site generator, and host the document on a distributed version control system. 
 
 ## Prerequisites
