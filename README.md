@@ -10,7 +10,7 @@ The purpose of this readme is to create a simple pipeline for hosting a website.
 I created my resume in Markdown with very basic formatting. For the title and headings I used one or more hashtags and for the rest I used mostly lists. I'm continually surpised at how simple the document can be and yet so nice after applying a Jekyll theme. This document assumes you have a resume written in markdown. If you do not have one, I recommend creating a very simple resume with a few headers and a list or two to get started with this tutorial. 
 
 ### Distributed Version Control System
-Using a distributed version control system is useful for many reasons, but a few important ones are: automatic backups, offline work, easier for multiple people to contribute, and for automatic updates to our website. We will use Github for our project because then we can use Github pages to host our resume. Github has made it very easy to upload documents and automatically update the website for that project. Etter stresses that when changes are made, the update process should be very simple. Because frequent changes and perhaps by multiple contributors should not be an issue.
+Using a distributed version control system is useful for many reasons, but some important ones described in Etters book are: automatic backups, offline work, easier for multiple people to contribute, and for automatic updates to our website. We will use Github for our project because then we can use Github pages to host our resume. Github has made it very easy to upload documents and automatically update the website for that project. Etter stresses that when changes are made, the update process should be very simple. Because frequent changes and perhaps by multiple contributors should not be an issue.
 
 1. [Click](https://github.com/login) to create Github Account
 
@@ -20,7 +20,7 @@ Using a distributed version control system is useful for many reasons, but a few
     3. Click ```Create repository``` to save the changes
 
 ### Lightweight Markup Language
-Now that the project is created it is time to upload the markdown resume. The reason we use markdown to create the resume is because markdown is flexible. It makes creating website content easy, it is human readable, it is platform independent, and is easy to use with static site generators. It also keeps content and style seperate. This way we can edit markdown on any platform with many free options for a markdown editor. 
+Now that the project is created it is time to upload the markdown resume. The following are some reasons to use markdown as described in Etters book: markdown is simple, it is human readable, it works well with version control, it is platform independent, and is easy to use with static site generators. This way we can edit markdown on any platform with many free options for a markdown editor. However let's upload your resume to github. 
 
 3. Upload Resume
     1. Click ```uploading an existing file``` under the code section to upload your resume
@@ -33,7 +33,7 @@ Now that the project is created it is time to upload the markdown resume. The re
     4. Click ```Commit changes```
 
 ### Static Site Generator
-Now that we have a markdown file, let's apply some style to it with Jekyll. It is a free and popular static site generator with many prebuilt themes available, and few are supported by default on github pages. Switching themes is as easy as changing one line of code and more importantly it is independent of the content. For my resume, I used the [Cayman](https://pages.github.com/themes/) theme, as can be seen by the following instructions. 
+Now that we have a markdown file, let's apply some style to it with Jekyll. This is also recommended by Etter because we can now use any simple theme we desire without changing a single line of our resume. Plus, Jekyll is a free and popular static site generator with many prebuilt themes available by default on github pages. Switching themes is as easy as changing one line of code in the config file. For my resume, I used the [Cayman](https://pages.github.com/themes/) theme, as can be seen by the following instructions. 
 
 4. Create ```_config.yaml``` file
     1. Click ```Add file``` under the Code section
