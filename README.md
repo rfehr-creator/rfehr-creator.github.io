@@ -59,6 +59,8 @@ We have now created a complete pipeline to host a resume written in markdown, an
 - To learn more about Github use this [link](https://docs.github.com/en/get-started).
 
 ## Authors and Acknowledgements
+Author: Roland Fehr
+
 Thank you to my group members for reviewing this document. As well as the authors that created the Cayman theme for Github Pages. 
 
 ## FAQs
